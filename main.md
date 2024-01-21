@@ -5,5 +5,5 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD
 sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
 3. Run to install R
 sudo apt update && sudo apt install r-base
-4. Verify Installation
+4. Verify Installation  
 R
