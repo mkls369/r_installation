@@ -1,3 +1,5 @@
+Should work on debian systems, installs the most recent versions. If an older version is desired you're left with compiling from source
+
 1. Run  
 sudo apt update && sudo apt upgrade
 2. Then  add key to repo  
