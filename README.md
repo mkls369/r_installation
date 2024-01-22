@@ -24,3 +24,8 @@ sudo apt-get autoremove`
 2. Verify un-installation
 `R`
 you should see `-bash: /usr/bin/R: No such file or directory`
+
+## Reinstalling packages
+It's a good idea to update R packages when you've updates you R version (some packages even won't work untill they're reinstalled).
+Run in R: `update.packages(ask = FALSE, checkBuilt = TRUE)` to update your packages
+
