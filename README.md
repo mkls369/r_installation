@@ -9,3 +9,5 @@ sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_
 sudo apt update && sudo apt install r-base
 4. Verify Installation  
 R
+
+OR all in one go `sh installR.sh` 
