@@ -16,7 +16,11 @@ OR all in one go `sh installR.sh`
 
 ## Removing R
 
-Run these commands  
+1. Run these commands  
 `sudo apt-get remove r-base-core &&
 sudo apt-get remove r-base &&
 sudo apt-get autoremove`
+
+2. Verify un-installation
+`R`
+you should see `-bash: /usr/bin/R: No such file or directory`
